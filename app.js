@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", function(req, res) {
 
-    // used to send html file to the client
+    // used to send html file to the client.
     res.sendFile(__dirname + "/index.html");
 });
 
